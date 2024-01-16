@@ -53,3 +53,29 @@
 .nav-content .home a {
   color: var(--orange);
 }
+.hambarger-menu {
+  display: none;
+}
+.hambarger-menu img {
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+
+/* Responsive design style */
+@media screen and (max-width: 576px) {
+  .nav-content {
+    display: none;
+  }
+  .hambarger-menu {
+    display: block;
+  }
+  .hambarger-menu img {
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+  .navbar {
+    margin: 20px 20px;
+  }
+}
