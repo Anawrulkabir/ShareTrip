@@ -12,13 +12,19 @@
   text-decoration: none;
   list-style-type: none;
 }
+/* test class */
 .box {
   border: 1px solid black;
   background: rgba(3, 13, 3, 0.335);
   margin: 20px;
 }
+.none {
+  display: none;
+}
+
 /* header style */
-header {
+header,
+main {
   margin: 0px 70px;
 }
 /* navbar style */
@@ -160,7 +166,183 @@ header {
   color: var(--white);
   font-size: 16px;
 }
+/* 
 
+
+
+*/
+/* First section */
+.first-section {
+  margin-top: 100px;
+}
+.section-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+}
+.section-text h3 {
+  color: #131318;
+  text-align: left;
+  font-family: Mulish;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.section-text p,
+.section-text ul li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  list-style: disc;
+  margin-bottom: 24px;
+}
+.section-text ul li {
+  margin-bottom: 16px;
+}
+.first-section-btn {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--orange);
+  border: none;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--white);
+}
+/* 
+.
+.
+.
+.
+.
+.
+*/
+/* destination section style */
+.destination-section {
+  margin-top: 100px;
+}
+.destination-section h1 {
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.destination-section p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 48px;
+}
+.maldip {
+  grid-area: maldip;
+}
+.indoneshia {
+  grid-area: indoneshia;
+}
+.srilanka {
+  grid-area: srilanka;
+}
+.north {
+  grid-area: north;
+}
+.kashmir {
+  grid-area: kashmir;
+}
+.bangladesh {
+  grid-area: bangladesh;
+}
+.bandarban {
+  grid-area: bandarban;
+}
+.main-grid {
+  position: relative;
+}
+.grid-section {
+  position: absolute;
+  z-index: -1;
+  display: grid;
+  gap: 24px;
+  /* grid-template-columns: repeat(2, 0.1fr); */
+  /* grid-template-columns: auto;
+  grid-template-rows: auto; */
+
+  grid-template-areas:
+    'maldip     maldip     maldip     maldip     maldip     maldip    indoneshia indoneshia indoneshia indoneshia indoneshia indoneshia'
+    'srilanka   srilanka   srilanka   srilanka   north      north     north      north      north      kashmir    kashmir    kashmir'
+    'bangladesh bangladesh bangladesh bangladesh bangladesh bandarban bandarban  bandarban  bandarban  bandarban  bandarban  bandarban';
+}
+/* linear gradiant of grid */
+
+.black {
+  border-radius: 16px;
+  background: linear-gradient(
+    0deg,
+    rgba(19, 19, 24, 0.2) 0%,
+    rgba(19, 19, 24, 0.2) 100%
+  );
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.black-1 {
+  width: 100%;
+  height: 300px;
+}
+.black-2 {
+  height: 286px;
+  width: 100%;
+}
+.w1 {
+  width: 573px;
+}
+.w2 {
+  width: 374px;
+}
+.w3 {
+  width: 474px;
+}
+.w4 {
+  width: 274px;
+}
+.w5 {
+  width: 473px;
+}
+.w6 {
+  width: 673px;
+}
+.div-section-gradiant {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: grid;
+  gap: 24px;
+  grid-template-areas:
+    'maldip     maldip     maldip     maldip     maldip     maldip    indoneshia indoneshia indoneshia indoneshia indoneshia indoneshia'
+    'srilanka   srilanka   srilanka   srilanka   north      north     north      north      north      kashmir    kashmir    kashmir'
+    'bangladesh bangladesh bangladesh bangladesh bangladesh bandarban bandarban  bandarban  bandarban  bandarban  bandarban  bandarban';
+}
+/* 
+.
+.
+.
+.
+.
+.
+.
+*/
 /* Responsive design style */
 @media screen and (max-width: 576px) {
   /* header style */
