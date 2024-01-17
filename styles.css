@@ -369,7 +369,7 @@ main {
   width: 573px;
   height: 284px;
   border-radius: 16px;
-  border: 1px solid rgba(251, 181, 99, 0.2);
+  border: 2px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
   margin-right: 24px;
   box-shadow: 12px 3px 38px 4px rgba(0, 0, 0, 0.1);
@@ -379,8 +379,8 @@ main {
   height: 284px;
   flex-shrink: 0;
   border-radius: 16px;
-  border: 1px solid rgba(41, 206, 246, 0.2);
-  background: rgba(41, 206, 246, 0.05);
+  border: 2px solid rgba(19, 148, 181, 0.2);
+  background: rgba(41, 205, 246, 0.181);
   box-shadow: -21px 3px 38px 4px rgba(0, 0, 0, 0.1);
 }
 .price {
@@ -388,7 +388,7 @@ main {
   height: 284px;
   flex-shrink: 0;
   border-radius: 16px;
-  border: 1px solid rgba(233, 68, 68, 0.2);
+  border: 2px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
   box-shadow: 12px 3px 38px 4px rgba(0, 0, 0, 0.1);
 }
@@ -792,5 +792,106 @@ main {
 
   .section-img img {
     width: 100%;
+  }
+
+  /* destination section style */
+  .destination-section {
+    margin-top: 24px;
+  }
+  .destination-section h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+    margin-bottom: 16px;
+  }
+  .destination-section p {
+    color: rgba(19, 19, 24, 0.7);
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+  }
+  .grid-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-section img {
+    width: 100%;
+    height: 300px;
+  }
+  .div-section-gradiant div {
+    width: 100%;
+    height: 300px;
+  }
+  .div-section-gradiant {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+  }
+
+  /*  choose-factor-section */
+  .choose-factor-section {
+    margin-top: 24px;
+  }
+  .choose-factor-section h2 {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+  }
+  .choose-factor-section > p {
+    font-size: 0.875rem;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  .hotel {
+    width: 100%;
+    height: 290px;
+
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .service {
+    width: 100%;
+    height: 290px;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .price {
+    width: 100%;
+    height: 290px;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .hotel img,
+  .service img,
+  .price img {
+    margin: 32px;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+  }
+  .hotel h3,
+  .service h3,
+  .price h3 {
+    margin-bottom: 16px;
+    font-size: 1.25rem;
+    font-weight: 800;
+  }
+  .hotel p,
+  .service p,
+  .price p {
+    font-size: 0.875rem;
+    /* margin-left: 32px;
+    margin-right: 55px; */
+  }
+  .row-1 {
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  .price-parent {
+    display: flex;
+    justify-content: center;
   }
 }
