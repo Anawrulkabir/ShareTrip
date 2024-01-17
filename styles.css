@@ -514,10 +514,10 @@ main {
   margin-top: 100px;
   display: flex;
   flex-direction: row;
-  display: none;
 }
 .subscribe {
-  width: 474px;
+  /* width: 474px; */
+  width: 100%;
   height: 422px;
   border-radius: 16px;
   border: 1px solid #ff5400;
@@ -549,6 +549,7 @@ main {
 .subscribe-btn {
   display: block;
   width: 393px;
+  /* width: 100%; */
   height: 52px;
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
@@ -570,12 +571,20 @@ main {
 /* newsletter image ...*/
 .newletter-img {
   width: 672px;
+
   height: 422px;
   flex-shrink: 0;
   padding-left: 24px;
 
   position: relative;
 }
+/* newly added */
+.newletter-img img {
+  width: 672px;
+  height: 422px;
+  flex-shrink: 0;
+}
+
 .discount-div {
   width: 324px;
   height: 120px;
@@ -616,7 +625,6 @@ main {
   background: rgba(19, 19, 24, 0.05);
 
   margin-top: 100px;
-  display: none;
 }
 .logo-and-text {
   margin-bottom: 15px;
@@ -933,5 +941,95 @@ main {
   .video-section-video iframe {
     width: 100%;
     height: 300px;
+  }
+
+  /* newsletter section */
+
+  .newsletter-section {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe {
+    width: 100%;
+    height: 353px;
+    flex-shrink: 0;
+    margin: 24px 0px;
+  }
+  .subscribe h3 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+  }
+  .subscribe p {
+    font-size: 0.875rem;
+    width: 270px;
+    margin-bottom: 16px;
+  }
+  .newsletter-section hr {
+    width: 288px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.1);
+
+    margin-bottom: 16px;
+  }
+  .subscribe input,
+  .subscribe-btn {
+    display: block;
+    width: 288px;
+    margin-bottom: 16px;
+  }
+  .subscribe-btn {
+    margin-top: 20px;
+  }
+
+  /* newsletter image ...*/
+  .newletter-img {
+    width: 100%;
+    height: 300px;
+    flex-shrink: 0;
+  }
+  .newletter-img img {
+    /* padding-left: 24px; */
+
+    width: 400px;
+    height: 300px;
+    flex-shrink: 0;
+    padding-right: 65px;
+  }
+  .discount-div {
+    width: 212px;
+    height: 80px;
+    left: 140px;
+    top: 185px;
+  }
+  .discount-div p {
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+  }
+  .discount-div h1 {
+    font-weight: 800;
+    font-size: 1.3rem;
+  }
+
+  /* Footer section */
+  .footer-section {
+    padding: 33px 44px;
+    margin-top: 24px;
+  }
+  .logo-and-text {
+    margin-bottom: 15px;
+  }
+  .footer-section > p {
+    margin-bottom: 16px;
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: var(--gray);
+  }
+  .social-logo {
+    margin-bottom: 16px;
+  }
+  .footer-section hr {
+    width: 335px;
   }
 }
