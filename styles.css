@@ -166,6 +166,20 @@ main {
   color: var(--white);
   font-size: 16px;
 }
+
+/* .where-1 #lang {
+  width: 174px;
+  height: 52px;
+  margin-right: 20px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  background-color: var(--white);
+  color: var(--gray);
+}
+.where-1 #lang select {
+  padding-right: 20px;
+} */
 /* 
 
 
@@ -474,6 +488,21 @@ main {
 .
 .
  */
+
+/* 
+ 
+ 
+ <form action="#">
+      <label for="lang">Where go</label>
+      <select name="languages" id="lang">
+       <option value="none"></option>
+       <option value="Bangladesh">Bangladesh</option>
+       <option value="Bangladesh">Bangladesh</option>
+       <option value="Bangladesh">Bangladesh</option>
+       <option value="Bangladesh">Bangladesh</option>
+      </select>
+      <input type="submit" value="Submit" />
+</form>*/
 
 /* newsletter section style */
 .newsletter-section {
